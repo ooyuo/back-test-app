@@ -2,14 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "package.json",
+      "src": "api/**/*.js",
       "use": "@vercel/node"
     }
   ],
+  "source": "api/index.js", // This line is incorrect and should be removed
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/api/index.js"
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
     }
   ]
 }
