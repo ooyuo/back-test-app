@@ -10,8 +10,6 @@ function App() {
     const handlePopstate = (event: PopStateEvent) => {
       if (event.state) {
         if (window.confirm("이 페이지를 떠나시겠습니까?")) {
-          window.opener = null;
-          window.open("", "_self");
           window.close();
         } else {
           navigate(1); // 뒤로가기 동작 취소
