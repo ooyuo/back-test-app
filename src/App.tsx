@@ -1,19 +1,14 @@
-import { Outlet, useNavigate } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header";
 import { useEffect } from "react";
 
 function App() {
-  const navigate = useNavigate();
-
   useEffect(() => {
-    const handlePopstate = (event: PopStateEvent) => {
+    const handlePopstate = (event: { state: unknown }) => {
+      console.log(event);
       if (event.state) {
-        if (window.confirm("이 페이지를 떠나시겠습니까?")) {
-          window.close();
-        } else {
-          navigate(1); // 뒤로가기 동작 취소
-        }
+        window.close();
       }
     };
 
@@ -22,7 +17,7 @@ function App() {
     return () => {
       window.removeEventListener("popstate", handlePopstate);
     };
-  }, [navigate]);
+  }, []);
 
   return (
     <div>

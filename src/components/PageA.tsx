@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
+import useCleanNavigation from "../hooks/useCleanNavigation";
 
 const PageA = () => {
+  const navigateClean = useCleanNavigation();
   return (
     <div>
       <h2>Page A</h2>
-      <Link to="/b">Go to Page B</Link>
+      <button onClick={() => navigateClean("/b")}>Go to Page B</button>
     </div>
   );
 };

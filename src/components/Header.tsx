@@ -1,15 +1,15 @@
-import { useNavigate } from "react-router-dom";
+import { To, useNavigate } from "react-router-dom";
 
 const Header = () => {
   const navigate = useNavigate();
 
-  const handleBackButtonClick = () => {
-    navigate(-1);
+  const handleCustomNavigation = (path: To) => {
+    navigate(path, { replace: true }); // Navigate to the new path without adding to history
   };
 
   return (
     <header>
-      <button onClick={handleBackButtonClick}>뒤로가기</button>
+      <button onClick={() => handleCustomNavigation("/c")}>Navigate</button>
       <h1>Hello world</h1>
     </header>
   );
