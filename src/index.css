@@ -57,9 +57,11 @@ button:focus-visible {
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  height: 740px;
 }
 
 header {
+  position: relative;
   background-color: #4caf50;
   color: white;
   text-align: center;
@@ -67,19 +69,36 @@ header {
 }
 
 footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
   background-color: #333;
   color: white;
   text-align: center;
   padding: 10px 0;
   position: fixed;
   width: 100%;
-  bottom: 0;
+}
+
+.info-fix {
+  height: 654px;
+  display: block;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 main {
+  height: 518px;
+  min-height: initial;
+  overflow-y: auto;
+
   padding: 20px;
   background-color: #f4f4f4;
-  height: 2000px; /* 높이를 크게 설정하여 스크롤이 발생하도록 함 */
+  height: 654px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 @media (prefers-color-scheme: light) {
   :root {
