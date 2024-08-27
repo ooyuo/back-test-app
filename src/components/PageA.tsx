@@ -12,61 +12,54 @@ const PageA = () => {
         <p>This is a sample header</p>
       </header>
 
-      <div className="info-fix">
-        <main>
-          <h2>Main Content Area</h2>
-          <p>This is the main content area. Scroll down to see more content.</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit
-            amet nisi massa. Fusce malesuada felis sed velit placerat, eget
-            vulputate neque pharetra. Morbi sed leo ac risus tempor
-            sollicitudin. Quisque pharetra turpis sed sapien fringilla, at
-            interdum nisi tempor. Nullam facilisis justo ut ligula facilisis
-            cursus. Morbi a urna a leo tempus eleifend. Aenean sed turpis vel
-            dui ultricies pharetra.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit
-            amet nisi massa. Fusce malesuada felis sed velit placerat, eget
-            vulputate neque pharetra. Morbi sed leo ac risus tempor
-            sollicitudin. Quisque pharetra turpis sed sapien fringilla, at
-            interdum nisi tempor. Nullam facilisis justo ut ligula facilisis
-            cursus. Morbi a urna a leo tempus eleifend. Aenean sed turpis vel
-            dui ultricies pharetra.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit
-            amet nisi massa. Fusce malesuada felis sed velit placerat, eget
-            vulputate neque pharetra. Morbi sed leo ac risus tempor
-            sollicitudin. Quisque pharetra turpis sed sapien fringilla, at
-            interdum nisi tempor. Nullam facilisis justo ut ligula facilisis
-            cursus. Morbi a urna a leo tempus eleifend. Aenean sed turpis vel
-            dui ultricies pharetra.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit
-            amet nisi massa. Fusce malesuada felis sed velit placerat, eget
-            vulputate neque pharetra. Morbi sed leo ac risus tempor
-            sollicitudin. Quisque pharetra turpis sed sapien fringilla, at
-            interdum nisi tempor. Nullam facilisis justo ut ligula facilisis
-            cursus. Morbi a urna a leo tempus eleifend. Aenean sed turpis vel
-            dui ultricies pharetra.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit
-            amet nisi massa. Fusce malesuada felis sed velit placerat, eget
-            vulputate neque pharetra. Morbi sed leo ac risus tempor
-            sollicitudin. Quisque pharetra turpis sed sapien fringilla, at
-            interdum nisi tempor. Nullam facilisis justo ut ligula facilisis
-            cursus. Morbi a urna a leo tempus eleifend. Aenean sed turpis vel
-            dui ultricies pharetra.
-          </p>
-        </main>
+      <main>
+        <h2>Main Content Area</h2>
+        <p>This is the main content area. Scroll down to see more content.</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit
+          amet nisi massa. Fusce malesuada felis sed velit placerat, eget
+          vulputate neque pharetra. Morbi sed leo ac risus tempor sollicitudin.
+          Quisque pharetra turpis sed sapien fringilla, at interdum nisi tempor.
+          Nullam facilisis justo ut ligula facilisis cursus. Morbi a urna a leo
+          tempus eleifend. Aenean sed turpis vel dui ultricies pharetra.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit
+          amet nisi massa. Fusce malesuada felis sed velit placerat, eget
+          vulputate neque pharetra. Morbi sed leo ac risus tempor sollicitudin.
+          Quisque pharetra turpis sed sapien fringilla, at interdum nisi tempor.
+          Nullam facilisis justo ut ligula facilisis cursus. Morbi a urna a leo
+          tempus eleifend. Aenean sed turpis vel dui ultricies pharetra.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit
+          amet nisi massa. Fusce malesuada felis sed velit placerat, eget
+          vulputate neque pharetra. Morbi sed leo ac risus tempor sollicitudin.
+          Quisque pharetra turpis sed sapien fringilla, at interdum nisi tempor.
+          Nullam facilisis justo ut ligula facilisis cursus. Morbi a urna a leo
+          tempus eleifend. Aenean sed turpis vel dui ultricies pharetra.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit
+          amet nisi massa. Fusce malesuada felis sed velit placerat, eget
+          vulputate neque pharetra. Morbi sed leo ac risus tempor sollicitudin.
+          Quisque pharetra turpis sed sapien fringilla, at interdum nisi tempor.
+          Nullam facilisis justo ut ligula facilisis cursus. Morbi a urna a leo
+          tempus eleifend. Aenean sed turpis vel dui ultricies pharetra.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit
+          amet nisi massa. Fusce malesuada felis sed velit placerat, eget
+          vulputate neque pharetra. Morbi sed leo ac risus tempor sollicitudin.
+          Quisque pharetra turpis sed sapien fringilla, at interdum nisi tempor.
+          Nullam facilisis justo ut ligula facilisis cursus. Morbi a urna a leo
+          tempus eleifend. Aenean sed turpis vel dui ultricies pharetra.
+        </p>
+      </main>
 
-        <footer>
-          <p>Footer Content &copy; 2024</p>
-        </footer>
-      </div>
+      <footer>
+        <p>Footer Content &copy; 2024</p>
+      </footer>
     </div>
   );
 };

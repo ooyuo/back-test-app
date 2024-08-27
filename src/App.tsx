@@ -10,7 +10,7 @@ function App() {
       // 모바일 장치에서만 동작하도록 설정
       const rootElement = document.getElementById("root") as HTMLElement;
       const bodyElement = document.body as HTMLElement;
-      const infoFixElement = document.querySelector(".info-fix") as HTMLElement;
+      const infoFixElement = document.querySelector("main") as HTMLElement;
 
       const adjustHeight = () => {
         const viewportHeight = window.innerHeight;

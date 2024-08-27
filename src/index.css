@@ -83,12 +83,10 @@ footer {
 }
 
 .info-fix {
-  height: 685px;
   display: block;
   width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  height: calc(748px - 30px);
 }
 
 main {
@@ -98,7 +96,6 @@ main {
 
   padding: 20px;
   background-color: #f4f4f4;
-  height: 654px;
   overflow-y: auto;
   overflow-x: hidden;
 }
