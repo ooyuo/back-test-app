@@ -26,6 +26,8 @@ function App() {
         if (infoFixElement) {
           infoFixElement.style.height = `${viewportHeight - 30}px`;
         }
+
+        console.log(viewportHeight, viewportHeight - 30);
       };
 
       // 초기 높이 설정
