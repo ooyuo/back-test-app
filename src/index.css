@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   height: 740px;
+  overflow: hidden;
 
   padding-top: constant(safe-area-inset-top);
   padding-top: env(safe-area-inset-top);
