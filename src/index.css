@@ -27,7 +27,6 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  height: 740px;
   overflow: hidden;
 
   padding-top: constant(safe-area-inset-top);
@@ -98,6 +97,7 @@ main {
   background-color: #f4f4f4;
   overflow-y: auto;
   overflow-x: hidden;
+  padding-bottom: 76px;
 }
 #root {
   height: 100vh;

@@ -3,14 +3,14 @@ import useCleanNavigation from "../hooks/useCleanNavigation";
 const PageA = () => {
   const navigateClean = useCleanNavigation();
   return (
-    <div>
+    <>
       <h2>Page A</h2>
       <button onClick={() => navigateClean("/b")}>Go to Page B</button>
 
-      <header>
+      {/* <header>
         <h1>Welcome to My Website</h1>
         <p>This is a sample header</p>
-      </header>
+      </header> */}
 
       <main>
         <h2>Main Content Area</h2>
@@ -60,7 +60,7 @@ const PageA = () => {
       <footer>
         <p>Footer Content &copy; 2024</p>
       </footer>
-    </div>
+    </>
   );
 };
 
