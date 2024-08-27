@@ -27,7 +27,7 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  height: 740px;
 
   padding-top: constant(safe-area-inset-top);
   padding-top: env(safe-area-inset-top);
@@ -58,16 +58,6 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-html {
-  height: 100vh;
-}
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  height: 740px;
-  overflow: hidden;
-  height: 100vh;
-}
 
 header {
   position: relative;
@@ -75,6 +65,7 @@ header {
   color: white;
   text-align: center;
   padding: 20px 0;
+  height: 30px;
 }
 
 footer {
@@ -91,11 +82,12 @@ footer {
 }
 
 .info-fix {
-  height: 100vh;
+  height: 685px;
   display: block;
   width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
+  height: calc(748px - 30px);
 }
 
 main {
